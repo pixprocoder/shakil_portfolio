@@ -241,6 +241,11 @@ form textarea {
   z-index: -2; /* Place the image layer behind the gradient layer */
 }
 
+nav {
+  position: relative;
+  z-index: 1; /* Bring the navbar above the pseudo-elements */
+}
+
 /* Button */
 .primaryBtn {
   background-color: #ff4900;
@@ -273,6 +278,7 @@ section {
   font-weight: bold;
   margin-right: 26px;
   text-decoration-line: underline;
+  cursor: pointer;
 }
 
 /* Color */
