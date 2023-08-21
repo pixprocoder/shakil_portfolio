@@ -1,7 +1,9 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
 body {
   background: #000;
   max-width: 1440px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 /* Button */
@@ -10,11 +12,42 @@ body {
   color: #fff;
   padding: 6px 20px;
   font-weight: bold;
+  border: none;
+  border-radius: 5px;
 }
+/* main section  */
 section {
   max-width: 1240px;
   margin: 0 auto;
 }
+
+/*  */
+header {
+  padding: 30px 0;
+  width: 1440px;
+  margin: auto 0;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+/* Font size */
+.logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+
+.navItem {
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  margin-right: 26px;
+  text-decoration-line: underline;
+}
+
 /* Color */
 .primaryColor {
   color: #ff4900;
