@@ -29,16 +29,17 @@ function PortfolioPage() {
         <Link className="navItem" href="/">
           Others
         </Link>
-        {/* <Link className="" href="/">
-          <button className="primaryBtn">Hire Me</button>
-        </Link> */}
       </div>
+      {/* Portfolio card */}
       <div className="portfolioCardContainer">
         {portfolio.map((item) => (
           <div key={item.id} className="portfolioCard">
             <Image width={393} height={431} src={item.img} alt="img" />
           </div>
         ))}
+      </div>
+      <div style={{ textAlign: "center", marginTop: "55px" }}>
+        <button className="primaryBtn">View All</button>
       </div>
     </div>
   );

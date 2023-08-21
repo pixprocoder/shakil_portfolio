@@ -3,6 +3,7 @@ import HeroPage from "@/components/hero";
 import OverviewCardPage from "@/components/overviewCard";
 import PortfolioPage from "@/components/portfolio";
 import { NavBar } from "@/components/shared/navBar";
+import TestimonialsPage from "@/components/testimonials";
 
 export default function HomePage() {
   return (
@@ -17,6 +18,7 @@ export default function HomePage() {
         <OverviewCardPage />
         <AboutPage />
         <PortfolioPage />
+        <TestimonialsPage />
       </section>
     </div>
   );
