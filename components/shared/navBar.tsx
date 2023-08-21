@@ -5,7 +5,7 @@ export const NavBar = () => {
   return (
     <header>
       <div>
-        <nav className="d-flex justify-content-between align-items-center">
+        <nav className=" d-flex justify-content-between align-items-center">
           <div className="logo">LOGO</div>
           <div className=" ">
             <Link className="navItem" href="/">

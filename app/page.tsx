@@ -1,3 +1,4 @@
+import HeroPage from "@/components/hero";
 import { NavBar } from "@/components/shared/navBar";
 
 export default function HomePage() {
@@ -6,6 +7,9 @@ export default function HomePage() {
       <section className="section">
         <NavBar />
       </section>
+      <div>
+        <HeroPage />
+      </div>
     </div>
   );
 }
