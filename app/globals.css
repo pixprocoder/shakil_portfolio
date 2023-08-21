@@ -12,7 +12,27 @@ body {
   position: relative;
   height: 800px;
   margin-top: -50px;
-  overflow: hidden; /* Ensure the gradient overlay covers the entire container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.heroContainerTitle {
+  color: #fff;
+  font-size: 77.974px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.heroContainerParagraph {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150.6%;
+  margin: 13px 0;
 }
 
 .heroContainer::before {
@@ -24,7 +44,7 @@ body {
   height: 100%;
   background: linear-gradient(
     0deg,
-    rgba(0, 0, 0, 0.4) 0%,
+    rgba(0, 0, 0, 0.8) 0%,
     rgba(0, 0, 0, 0.8) 100%
   );
   z-index: -1; /* Place the gradient layer behind the content */
