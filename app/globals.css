@@ -90,3 +90,28 @@ section {
 .accentColor {
   color: #141414;
 }
+
+/* Overview  card */
+.overviewCardContainer {
+  width: 1028px;
+  height: 149px;
+  margin: 0 auto;
+  margin-top: -70px;
+  border-radius: 8px;
+  padding: 27px 30px;
+  background: #141414;
+}
+.overviewCardTitle {
+  color: #fff;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.overviewCardParagraph {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
