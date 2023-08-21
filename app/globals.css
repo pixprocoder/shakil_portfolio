@@ -10,6 +10,40 @@ body {
 .sectionContainer {
   margin-top: 132px;
 }
+/* Footer container */
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  color: #fff;
+}
+.footerSocialIconContainer {
+  display: flex;
+  gap: 20px;
+}
+
+/* form */
+form {
+  display: flex;
+  gap: 27px;
+  flex-direction: column;
+}
+form input {
+  width: 499px;
+  height: 78px;
+  border-radius: 4px;
+  background: #141414;
+  border: none;
+  padding: 10px;
+}
+form textarea {
+  border-radius: 4px;
+  background: #141414;
+  border: none;
+  padding: 10px;
+  width: 499px;
+}
 
 /* Testimonials section */
 
