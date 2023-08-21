@@ -1,3 +1,4 @@
+import AboutPage from "@/components/about";
 import HeroPage from "@/components/hero";
 import OverviewCardPage from "@/components/overviewCard";
 import { NavBar } from "@/components/shared/navBar";
@@ -13,6 +14,7 @@ export default function HomePage() {
       </div>
       <section className="section">
         <OverviewCardPage />
+        <AboutPage />
       </section>
     </div>
   );
