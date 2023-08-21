@@ -6,6 +6,29 @@ body {
   box-sizing: border-box;
 }
 
+/* Portfolio section */
+.portfolioCardContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 30px;
+}
+.portfolioCard {
+  width: 393px;
+  height: 431px;
+  border-radius: 5px;
+}
+.portfolioCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.portfolioLink {
+  text-align: center;
+  margin: 55px 0;
+}
+
 /* Section margin */
 .sectionContainer {
   margin-top: 132px;
