@@ -1,5 +1,6 @@
 import Image from "next/image";
 import contact from "../public/assets/contact.jpg";
+import { Button } from "./ui/button";
 
 function ContactPage() {
   return (
@@ -29,7 +30,7 @@ function ContactPage() {
                 placeholder="Message"
               />
               <div>
-                <button className="primaryBtn">Send</button>
+                <Button>Send</Button>
               </div>
             </form>
           </div>

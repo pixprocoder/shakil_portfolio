@@ -2,6 +2,7 @@ import { portfolio } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { Button } from "./ui/button";
 
 function PortfolioPage() {
   return (
@@ -31,7 +32,7 @@ function PortfolioPage() {
         </Link>
       </div>
       {/* Portfolio card */}
-      <div className="portfolioCardContainer">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {portfolio.map((item) => (
           <div key={item.id} className="portfolioCard">
             <Image width={393} height={431} src={item.img} alt="img" />
@@ -39,7 +40,7 @@ function PortfolioPage() {
         ))}
       </div>
       <div style={{ textAlign: "center", marginTop: "55px" }}>
-        <button className="primaryBtn">View All</button>
+        <Button>View All</Button>
       </div>
     </div>
   );

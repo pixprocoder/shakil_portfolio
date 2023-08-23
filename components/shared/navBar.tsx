@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { Button } from "../ui/button";
 
 export const NavBar = () => {
   return (
@@ -20,7 +21,7 @@ export const NavBar = () => {
             Contact
           </Link>
           <Link className="" href="/">
-            <button className="primaryBtn">Hire Me</button>
+            <Button className="">Hire Me</Button>
           </Link>
         </div>
       </nav>

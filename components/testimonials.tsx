@@ -14,7 +14,7 @@ function TestimonialsPage() {
         <div className="sectionLine"></div>
       </div>
       {/* Testimonials card */}
-      <div className="testimonialsCardContainer">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-14">
         {testimonials.map((item) => (
           <div key={item.id} className="testimonialCard">
             <div>

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import hero from "../public/assets/hero-image.jpg";
+import { Button } from "./ui/button";
 
 function HeroPage() {
   return (
@@ -14,7 +15,7 @@ function HeroPage() {
           my whole heart.ree heart.
         </p>
 
-        <button className="primaryBtn">Hire Me</button>
+        <Button>Hire Me</Button>
       </div>
     </div>
   );

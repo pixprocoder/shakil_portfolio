@@ -2,8 +2,8 @@ import React from "react";
 
 function OverviewCardPage() {
   return (
-    <div className="overviewCardContainer">
-      <div className="d-flex justify-content-between align-items-center">
+    <div className="overviewCardContainer ">
+      <div className="flex  justify-between">
         <div>
           <h1 className="overviewCardTitle">50+</h1>
           <p className="overviewCardParagraph">Clients</p>

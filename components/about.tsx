@@ -1,5 +1,6 @@
 import Image from "next/image";
 import person from "../public/assets/person.jpg";
+import { Button } from "./ui/button";
 
 function AboutPage() {
   return (
@@ -21,16 +22,17 @@ function AboutPage() {
             Behind Journey <span style={{ color: "#FF4900" }}>! </span>
           </h1>
           <p className="aboutMeParagraph">
-            A wonderful serenity has taken possession of my entire soul, like
-            these sweet mornings of spring which I enjoy with my whole heart.re
-            soul, like these sweet mornings of spring which I enjoy with my
-            whole heart. A wonderful serenity has taken possession of my entire
-            soul, like these sweet mornings of spring which I enjoy with my
-            whole heart.re soul, like these sweet mornings of spring which I
-            enjoy with my whole heart.
+            Hello, My name is Mohammed Shakil. I'm a professional graphic
+            designer. Expert in Adobe Photoshop and Illustrator. I work in
+            different marketplaces and I offer my services. The services I
+            provide to clients are -Logo, Business card, Flyer, Poster, Leaflet,
+            Brochure Bifold and Trifold, Stationary Design, Post card, ID card,
+            Social Media Banner, Web Banner, Catalog, Company profile, Roll Up
+            Banner or Signage Banner Design etc. I am ready to give you any type
+            of design. Message me and help me with your design material.
           </p>
           <div>
-            <button className="primaryBtn">Hire Me</button>
+            <Button>Hire Me</Button>
           </div>
         </div>
       </div>
