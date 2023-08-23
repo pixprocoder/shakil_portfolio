@@ -85,6 +85,7 @@ body {
 /* Section margin */
 .sectionContainer {
   margin-top: 132px;
+  /* padding: 0 10px; */
 }
 /* Footer container */
 .footerContainer {
@@ -97,6 +98,9 @@ body {
 .footerSocialIconContainer {
   display: flex;
   gap: 20px;
+  justify-content: center;
+  align-items: center;
+  /* color: #ff4900; */
 }
 
 /* form */
@@ -129,13 +133,14 @@ form textarea {
   margin-top: 55px;
 } */
 .testimonialCard {
-  width: 393px;
-  height: 405px;
+  /* width: 393px; */
+  /* height: 405px; */
   border-radius: 5px;
   background-color: #141414;
   box-shadow: -6px 5px 42px -5px rgba(0, 0, 0, 0.17);
   padding: 26px;
   display: flex;
+  gap: 20px;
   flex-direction: column;
   justify-content: space-between;
   color: #fff;
@@ -179,7 +184,7 @@ form textarea {
   row-gap: 30px;
 } */
 .portfolioCard {
-  width: 393px;
+  /* width: 393px; */
   height: 431px;
   border-radius: 5px;
 }
@@ -204,7 +209,7 @@ form textarea {
 
 .aboutMeTitle {
   color: #fff;
-  font-size: 46.128px;
+  /* font-size: ; */
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -261,7 +266,7 @@ form textarea {
 
 .heroContainer {
   position: relative;
-  height: 800px;
+  /* height: ; */
   margin-top: -50px;
   display: flex;
   justify-content: center;
@@ -270,7 +275,7 @@ form textarea {
 }
 .heroContainerTitle {
   color: #fff;
-  font-size: 77.974px;
+  /* font-size: ; */
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -279,7 +284,7 @@ form textarea {
 .heroContainerParagraph {
   color: #fff;
   text-align: center;
-  font-size: 16px;
+  /* font-size: ; */
   font-style: normal;
   font-weight: 600;
   line-height: 150.6%;
@@ -352,7 +357,7 @@ section {
   font-size: 18px;
   color: #fff;
   font-weight: bold;
-  margin-right: 26px;
+  /* margin-right: 26px; */
   text-decoration-line: underline;
   cursor: pointer;
 }
@@ -370,9 +375,9 @@ section {
 
 /* Overview  card */
 .overviewCardContainer {
-  width: 1028px;
-  height: 149px;
-  margin: 0 auto;
+  /* width: 1028px; */
+  /* height: 149px; */
+  /* margin: 0 auto; */
   margin-top: -70px;
   border-radius: 8px;
   padding: 27px 30px;
@@ -383,6 +388,7 @@ section {
   font-size: 50px;
   font-style: normal;
   font-weight: 700;
+  text-align: center;
   line-height: normal;
 }
 .overviewCardParagraph {

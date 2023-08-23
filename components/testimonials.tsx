@@ -8,16 +8,16 @@ function TestimonialsPage() {
     <div className="sectionContainer">
       <div className="sectionHeading">
         <h1 className="sectionTitle">
-          Peoples
-          <span style={{ color: "#fff" }}> Opinion</span>
+          Testimonials
+          <span style={{ color: "#fff" }}></span>
         </h1>
         <div className="sectionLine"></div>
       </div>
       {/* Testimonials card */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-14">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-14 mx-3">
         {testimonials.map((item) => (
           <div key={item.id} className="testimonialCard">
-            <div>
+            <div className="flex gap-1">
               <Image width={16} height={16} src={start} alt="img" />
               <Image width={16} height={16} src={start} alt="img" />
               <Image width={16} height={16} src={start} alt="img" />

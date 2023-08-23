@@ -14,7 +14,7 @@ function PortfolioPage() {
         </h1>
         <div className="sectionLine"></div>
       </div>
-      <div className="portfolioLink">
+      <div className="portfolioLink flex gap-3 justify-center items-center">
         <Link className="navItem" href="/">
           All
         </Link>
@@ -32,9 +32,9 @@ function PortfolioPage() {
         </Link>
       </div>
       {/* Portfolio card */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-3">
         {portfolio.map((item) => (
-          <div key={item.id} className="portfolioCard">
+          <div key={item.id} className="portfolioCard ">
             <Image width={393} height={431} src={item.img} alt="img" />
           </div>
         ))}

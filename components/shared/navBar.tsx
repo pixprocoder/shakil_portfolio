@@ -5,9 +5,9 @@ import { Button } from "../ui/button";
 export const NavBar = () => {
   return (
     <header className="pt-3">
-      <nav className=" d-flex justify-content-between align-items-center">
-        <div className="logo">LOGO</div>
-        <div className=" ">
+      <nav className=" flex justify-between items-center flex-col lg:flex-row">
+        <div className="logo hidden lg:block">LOGO</div>
+        <div className="flex gap-6 items-center">
           <Link className="navItem" href="/">
             Home
           </Link>
@@ -21,7 +21,7 @@ export const NavBar = () => {
             Contact
           </Link>
           <Link className="" href="/">
-            <Button className="">Hire Me</Button>
+            <Button className="hidden lg:block">Hire Me</Button>
           </Link>
         </div>
       </nav>

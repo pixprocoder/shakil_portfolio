@@ -4,12 +4,15 @@ import { Button } from "./ui/button";
 
 function HeroPage() {
   return (
-    <div style={{ backgroundImage: `url(${hero})` }} className="heroContainer">
-      <div className="d-flex justify-content-center align-items-center flex-column">
-        <h1 className="heroContainerTitle">
+    <div
+      style={{ backgroundImage: `url(${hero})` }}
+      className="heroContainer h-[600px] lg:h-[800px]"
+    >
+      <div className="flex justify-center items-center flex-col">
+        <h1 className="heroContainerTitle text-5xl lg:text-[78px] text-center">
           I’m a <span style={{ color: "#FF4900" }}>Graphic Designer</span>
         </h1>
-        <p className="heroContainerParagraph">
+        <p className="heroContainerParagraph text-[12px] lg:text-lg">
           A wonderful serenity has taken possession of my entire soul,
           <br /> like these sweet mornings of spring which I enjoy <br /> with
           my whole heart.ree heart.
