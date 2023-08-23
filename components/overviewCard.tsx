@@ -2,7 +2,7 @@ import React from "react";
 
 function OverviewCardPage() {
   return (
-    <div className="overviewCardContainer ">
+    <div className="overviewCardContainer hidden lg:block">
       <div className="flex  justify-between">
         <div>
           <h1 className="overviewCardTitle">50+</h1>

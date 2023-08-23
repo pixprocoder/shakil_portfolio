@@ -8,7 +8,7 @@ import Image from "next/image";
 function FooterPage() {
   return (
     <footer className="sectionContainer">
-      <div className="footerContainer">
+      <div className="footerContainer flex-col gap-4">
         <div className="logo">LOGO</div>
         <p>copyright ©️ 2023 || Shakil Ahmend </p>
         <div className="footerSocialIconContainer">

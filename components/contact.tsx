@@ -15,7 +15,7 @@ function ContactPage() {
       {/* Contact */}
       <div className="contactContainer">
         <div className="aboutMeContainer">
-          <div className="aboutMeLeft">
+          <div className=" hidden lg:block">
             <Image src={contact} alt="profile" />
           </div>
           <div className="aboutMeRight">
