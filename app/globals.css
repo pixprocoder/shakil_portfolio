@@ -235,7 +235,7 @@ form textarea {
   display: flex;
   flex: 1;
   flex-direction: column;
-  margin-left: 140px;
+  /* margin-left: 140px; */
 }
 
 /* Section Headline */

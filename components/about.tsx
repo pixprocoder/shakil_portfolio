@@ -12,11 +12,11 @@ function AboutPage() {
         </h1>
         <div className="sectionLine"></div>
       </div>
-      <div className="aboutMeContainer">
+      <div className="aboutMeContainer flex-col lg:flex-row">
         <div className="aboutMeLeft">
           <Image src={person} alt="profile" />
         </div>
-        <div className="aboutMeRight">
+        <div className="aboutMeRight m-0 lg:ml-36">
           <h1 className="aboutMeTitle">
             Here are my Story <br />
             Behind Journey <span style={{ color: "#FF4900" }}>! </span>
