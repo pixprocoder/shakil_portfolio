@@ -12,7 +12,7 @@ function AboutPage() {
         </h1>
         <div className="sectionLine"></div>
       </div>
-      <div className="aboutMeContainer flex-col lg:flex-row mx-3">
+      <div className=" aboutMeContainer flex-col lg:flex-row mx-3 ">
         <div className="aboutMeLeft lg:w-[496px]">
           <Image src={person} alt="profile" />
         </div>

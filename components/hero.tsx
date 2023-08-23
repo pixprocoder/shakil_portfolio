@@ -13,9 +13,8 @@ function HeroPage() {
           I’m a <span style={{ color: "#FF4900" }}>Graphic Designer</span>
         </h1>
         <p className="heroContainerParagraph text-[12px] lg:text-lg">
-          A wonderful serenity has taken possession of my entire soul,
-          <br /> like these sweet mornings of spring which I enjoy <br /> with
-          my whole heart.ree heart.
+          Transforming Ideas into Art. <br /> Captivating Designs for Every
+          Vision. <br /> Your Imagination, Brought to Life.
         </p>
 
         <Button>Hire Me</Button>
