@@ -11,7 +11,7 @@ function AboutPage() {
     AOS.init();
   }, []);
   return (
-    <div className="sectionContainer">
+    <div id="about" className="sectionContainer">
       <div className="sectionHeading">
         <h1 className="sectionTitle">
           About

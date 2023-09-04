@@ -12,7 +12,7 @@ function PortfolioPage() {
     AOS.init();
   }, []);
   return (
-    <div className="sectionContainer">
+    <div id="portfolio" className="sectionContainer">
       <div className="sectionHeading">
         <h1 className="sectionTitle">
           My
