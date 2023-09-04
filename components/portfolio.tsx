@@ -1,10 +1,16 @@
+"use client";
 import { portfolio } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Button } from "./ui/button";
 
 function PortfolioPage() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="sectionContainer">
       <div className="sectionHeading">
@@ -34,7 +40,12 @@ function PortfolioPage() {
       {/* Portfolio card */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-3">
         {portfolio.map((item) => (
-          <div key={item.id} className="portfolioCard ">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            key={item.id}
+            className="portfolioCard "
+          >
             <Image width={393} height={431} src={item.img} alt="img" />
           </div>
         ))}

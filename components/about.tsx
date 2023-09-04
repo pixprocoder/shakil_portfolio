@@ -1,8 +1,15 @@
+"use client";
 import Image from "next/image";
 import person from "../public/assets/person.jpg";
 import { Button } from "./ui/button";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function AboutPage() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="sectionContainer">
       <div className="sectionHeading">
@@ -13,10 +20,19 @@ function AboutPage() {
         <div className="sectionLine"></div>
       </div>
       <div className=" aboutMeContainer flex-col lg:flex-row mx-3 ">
-        <div className="aboutMeLeft lg:w-[496px]">
+        <div
+          data-aos-duration="1000"
+          data-aos="fade-right"
+          className="aboutMeLeft lg:w-[496px]"
+        >
           <Image src={person} alt="profile" />
         </div>
-        <div className="aboutMeRight m-0 lg:ml-36">
+        <div
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos="fade-left"
+          className="aboutMeRight m-0 lg:ml-36"
+        >
           <h1 className="aboutMeTitle lg:text-left mt-4 text-center text-3xl lg:text-[46.128px]">
             Here are my Story <br />
             Behind Journey <span style={{ color: "#FF4900" }}>! </span>
