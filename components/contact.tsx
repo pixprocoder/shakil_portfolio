@@ -33,7 +33,7 @@ function ContactPage() {
         </div>
         <div
           data-aos-duration="1000"
-          data-aos="fade-left"
+          data-aos="zoom-in"
           className="flex-1 w-full lg:ml-8"
         >
           <form className="flex">

@@ -22,7 +22,7 @@ function AboutPage() {
       <div className=" aboutMeContainer flex-col lg:flex-row mx-3 ">
         <div
           data-aos-duration="1000"
-          data-aos="fade-right"
+          data-aos="fade-up"
           className="aboutMeLeft lg:w-[496px]"
         >
           <Image src={person} alt="profile" />
@@ -30,7 +30,7 @@ function AboutPage() {
         <div
           data-aos-delay="50"
           data-aos-duration="1000"
-          data-aos="fade-left"
+          data-aos="fade-up"
           className="aboutMeRight m-0 lg:ml-36"
         >
           <h1 className="aboutMeTitle lg:text-left mt-4 text-center text-3xl lg:text-[46.128px]">
