@@ -37,9 +37,28 @@ function ContactPage() {
           className="flex-1 w-full lg:ml-8"
         >
           <form className="flex">
-            <input type="text" name="" id="" placeholder="Name" />
-            <input type="text" name="" id="" placeholder="Email" />
-            <textarea rows={6} cols={20} name="" id="" placeholder="Message" />
+            <input
+              className="text-white"
+              type="text"
+              name=""
+              id=""
+              placeholder="Name"
+            />
+            <input
+              className="text-white"
+              type="text"
+              name=""
+              id=""
+              placeholder="Email"
+            />
+            <textarea
+              className="text-white"
+              rows={6}
+              cols={20}
+              name=""
+              id=""
+              placeholder="Message"
+            />
             <div>
               <Button>Send</Button>
             </div>
